@@ -41,7 +41,7 @@ The core business problem is simple: when do people ride, how do weather and sea
 
 
 ## Hypothesis Testing
-We conducted two formal hypothesis tests to validate patterns observed in the exploratory analysis.
+Conducted two formal hypothesis tests to validate patterns observed in the exploratory analysis.
 
 - Test 1: Commuter Patterns (Workday vs. Non-Workday)
   - Hypothesis:
@@ -54,7 +54,7 @@ We conducted two formal hypothesis tests to validate patterns observed in the ex
     - 95% CI = [6.2, 17.5].
   - **Interpretation**: We reject H₀. On average, working days see ~12 more rides per hour, confirming a commuter-driven demand pattern.
     - Ops: should allocate more staff/bikes on weekdays.
-    - PM: validates commuter demand as a product priority.\
+    - PM: validates commuter demand as a product priority.
     - Marketing: weekends may be better suited for promotions targeting casual riders.
 
  
