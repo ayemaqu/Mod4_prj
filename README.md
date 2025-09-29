@@ -130,19 +130,15 @@ We conducted two formal hypothesis tests to validate patterns observed in the ex
 
 
 
-### Trend 2: Different Riding Patterns for Casual vs. Registered Riders
-<img width="650" height="650" alt="viz2" src="https://github.com/user-attachments/assets/ac776198-f22e-4a7e-aa83-9aae14dee737" />
+### Trend 2: Average Rides by Weather Situation
+<img width="650" height="650" alt="visual" src="https://github.com/user-attachments/assets/6d0f2be3-acfe-4c5c-b188-3411a18b34c3" />
 
-- **Insight**: To further breakdown weekend vs weekdays, I also made the visual below: 
-  - The chart shows that registered riders (orange line) dominate usage during weekday commute hours, with sharp peaks around 8 AM and 5–6 PM. This makes sense because they’re mostly commuters or frequent users. In contrast, casual riders (purple line) ride more steadily across the day, with their activity peaking midday and on weekends. Casual riders are more likely tourists, occasional users, or people riding for free time rather than work.
-- What this means for stakeholders:
-  - _Product Manager_: Confirms two distinct user groups with different needs. Features for registered riders should focus on convenience during commute hours (fast unlocks, station reliability). For casual riders, the focus could be on accessibility and easy sign-up for one-off use.
-  - _Operations_: Registered commuters need bikes ready at morning and evening rush hours, while casual riders increase pressure midday and on weekends. This means bikes must be available across different times, not just during rush hours.
-  - _Marketing_: Marketing can target each group differently:
-    - Registered riders: “Your daily commute made easy.”
-    - Casual riders : “Explore the city this weekend - grab a bike anytime.”
-  - _Policy & Equity Advisor:_ Casual riders may include tourists or low-frequency users, so pricing should remain transparent and fair to avoid excluding people who can’t commit to a membership.
-
+- **Insight:**
+  - Ridership is highest under clear skies (205 rides/hr) and drops steadily as conditions worsen, mist reduces rides slightly (175/hr), light snow/rain cuts them nearly in half (112/hr), and heavy rain/storms nearly wipe out demand (74/hr).
+- Why this matters for stakeholders:
+  - _Operations_: helps plan fleet allocation (don’t over-deploy bikes on stormy days).
+  - _Policy/Ethics_: shows accessibility is highly weather-sensitive; city planners may consider sheltered stations or better road safety features.
+  - _PMs_: confirms weather is a strong external confounder when testing features; they need to adjust for weather when evaluating product impact.
 
 ### Trend 3: Ridership Increased After the Feature Launch
 <img width="652" height="490" alt="viz3" src="https://github.com/user-attachments/assets/13a79e29-3990-429c-bbbd-8f951cc66970" />
