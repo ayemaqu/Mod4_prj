@@ -118,7 +118,7 @@ We conducted two formal hypothesis tests to validate patterns observed in the ex
 
 ## Top 3 Trends/Insights
 #### Trend 1: Clear Commuter Patterns on Working Days
-<img width="650" height="650" alt="viz1" src="https://github.com/user-attachments/assets/c9ec2ed2-59ed-4a68-803c-9b43dbb197ea" />
+<img width="650" height="590" alt="vizzzz" src="https://github.com/user-attachments/assets/74da5724-ee55-4b25-bc0b-97e06e979ba4" />
 
 - **Insight**:
   - The line chart highlights two distinct ridership patterns. On working days, bike usage spikes sharply at 8 AM and 5–6 PM, which aligns with morning and evening commuting hours. This “two-peak” pattern reflects heavy reliance on bikes for work commutes. In contrast, non-working days show a smoother curve, with demand spread more evenly throughout the day, peaking gently in the afternoon (around 2–4 PM),  more consistent with flexible, casual riding instead of work commutes.
@@ -130,15 +130,19 @@ We conducted two formal hypothesis tests to validate patterns observed in the ex
 
 
 
-### Trend 2: Average Rides by Weather Situation
-<img width="650" height="650" alt="visual" src="https://github.com/user-attachments/assets/6d0f2be3-acfe-4c5c-b188-3411a18b34c3" />
+### Trend 2: Different Riding Patterns for Casual vs. Registered Riders
+<img width="650" height="650" alt="viz2" src="https://github.com/user-attachments/assets/90071c9e-cd22-4e13-b2ee-f081b1683d97" />
 
-- **Insight:**
-  - Ridership is highest under clear skies (205 rides/hr) and drops steadily as conditions worsen, mist reduces rides slightly (175/hr), light snow/rain cuts them nearly in half (112/hr), and heavy rain/storms nearly wipe out demand (74/hr).
-- Why this matters for stakeholders:
-  - _Operations_: helps plan fleet allocation (don’t over-deploy bikes on stormy days).
-  - _Policy/Ethics_: shows accessibility is highly weather-sensitive; city planners may consider sheltered stations or better road safety features.
-  - _PMs_: confirms weather is a strong external confounder when testing features; they need to adjust for weather when evaluating product impact.
+- **Insight**: To further breakdown weekend vs weekdays, I also made the visual above: 
+  - The chart shows that registered riders (orange line) dominate usage during weekday commute hours, with sharp peaks around 8 AM and 5–6 PM. This makes sense because they’re mostly commuters or frequent users. In contrast, casual riders (purple line) ride more steadily across the day, with their activity peaking midday and on weekends. Casual riders are more likely tourists, occasional users, or people riding for free time rather than work.
+- What this means for stakeholders:
+  - _Product Manager_: Confirms two distinct user groups with different needs. Features for registered riders should focus on convenience during commute hours (fast unlocks, station reliability). For casual riders, the focus could be on accessibility and easy sign-up for one-off use.
+  - _Operations_: Registered commuters need bikes ready at morning and evening rush hours, while casual riders increase pressure midday and on weekends. This means bikes must be available across different times, not just during rush hours.
+  - _Marketing_: Marketing can target each group differently:
+    - Registered riders: “Your daily commute made easy.”
+    - Casual riders : “Explore the city this weekend - grab a bike anytime.”
+  - _Policy & Equity Advisor:_ Casual riders may include tourists or low-frequency users, so pricing should remain transparent and fair to avoid excluding people who can’t commit to a membership.
+
 
 ### Trend 3: Ridership Increased After the Feature Launch
 <img width="652" height="490" alt="viz3" src="https://github.com/user-attachments/assets/13a79e29-3990-429c-bbbd-8f951cc66970" />
@@ -201,5 +205,7 @@ In summary, the data suggests an upward trend but it isn’t strong enough to co
 - _Equity across rider groups_: Registered riders (daily commuters) and casual riders (occasional/tourist users) have different needs. Any product or operational decisions should not overly favor one group at the expense of the other. For example, over-prioritizing commuters could limit access for casual users in certain neighborhoods.
 - _Responsible use of data windows_: It’s important not to overfit decisions to short-term changes (like one month of post-feature data). Overreacting to temporary spikes or dips could lead to misallocated resources and harm trust.
 - _Transparency_: When communicating results to stakeholders or the public, uncertainty (such as wide confidence intervals or non-significant results) must be clearly explained so changes are not overstated.
+
+
 
 
