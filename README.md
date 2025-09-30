@@ -212,6 +212,7 @@ In summary, the data suggests an upward trend but it isn’t strong enough to co
 **Project presentation**: https://docs.google.com/presentation/d/11Y3IFu6eIm_EjbzCwVKsZ_PUqq2l9JVTUDuEpZ_ir1o/edit?usp=sharing
 
 #### Folder Structure
+```
 Mod4_prj/
 │
 ├── dataset/
@@ -223,6 +224,7 @@ Mod4_prj/
 │   └── AB_Test.ipynb            # Simulated A/B testing
 │
 └── README.md                   # Project overview, insights, and results
+```
 
 ## 🤝 Connect with Me  
 My LinkedIn - feel free to connect: [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187)
